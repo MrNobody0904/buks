@@ -1,0 +1,6 @@
+footer{border-top:1px solid #ffffff14;padding:60px 0 40px;font-size:.92rem;color:var(--gr)}
+footer .w{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:30px}
+footer h4{color:#fff;margin:0 0 12px}
+footer a{display:block;margin-bottom:6px}
+footer a:hover{color:var(--lm)}
+.cp{grid-column:1/-1;border-top:1px solid #ffffff14;padding-top:20px}

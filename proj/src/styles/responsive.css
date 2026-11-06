@@ -1,0 +1,2 @@
+@media(max-width:900px){.links,nav .btn{display:none}#bg{display:block}#menu.o{display:grid;gap:18px;position:fixed;inset:72px 0 auto;background:#080b09f2;padding:28px 24px;z-index:49}
+.hero .w,.biz,.two,.mv,footer .w{grid-template-columns:1fr}.cv1{height:50vh}section{padding:80px 0}#pn{top:auto;bottom:4vw;transform:none;padding:18px}#pn h3{font-size:1.3rem}#pn p{font-size:.88rem;margin-bottom:10px}.xh b{font-size:2.2rem}}

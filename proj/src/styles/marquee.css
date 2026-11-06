@@ -1,0 +1,4 @@
+.mq{overflow:hidden;border-block:1px solid #ffffff14;background:var(--bk);padding:18px 0;white-space:nowrap}
+.mq div{display:inline-flex;gap:40px;padding-right:40px;font-size:clamp(1.6rem,4vw,3rem);font-weight:700;letter-spacing:-.02em}
+.mq span{color:transparent;-webkit-text-stroke:1px #fff6}
+.mq span:nth-child(even){color:var(--lm);-webkit-text-stroke:0}

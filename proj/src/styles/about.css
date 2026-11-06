@@ -1,0 +1,5 @@
+.two{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+.mv{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:40px}
+.mv div{padding:28px;border-radius:18px;background:var(--fg)}
+.mv h3{font-size:1.2rem;color:var(--lm);margin-bottom:8px}
+.mv p{margin:0}

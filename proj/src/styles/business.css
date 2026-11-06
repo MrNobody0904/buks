@@ -1,0 +1,12 @@
+.biz{display:grid;grid-template-columns:1fr 1fr;gap:56px;margin-top:56px;align-items:start}
+.sk{border-top:1px solid #ffffff22;padding:20px 0}
+.sk h3{font-size:1.1rem;margin-bottom:8px}
+.sk p{margin:0;color:var(--gr);font-size:.94rem}
+#eco{width:100%;background:var(--sf);border-radius:22px;border:1px solid #ffffff12}
+#eco text{fill:#fff;font:700 13px 'Space Grotesk',sans-serif;text-anchor:middle}
+#eco .ln{stroke:var(--lm);stroke-width:1.5;stroke-dasharray:5 6;animation:fl 1.2s linear infinite;opacity:.7}
+@keyframes fl{to{stroke-dashoffset:-22}}
+.note{border-left:3px solid var(--lm);padding:6px 18px;margin:22px 0;color:#d6dcd7;font-size:.95rem}
+.rev{list-style:none;padding:0;margin:20px 0 0;counter-increment:x;display:grid;gap:10px}
+.rev li{padding:12px 16px;border-radius:12px;background:var(--sf);font-size:.95rem;counter-increment:r}
+.rev li:before{content:counter(r) ".";color:var(--lm);margin-right:10px;font-weight:700}

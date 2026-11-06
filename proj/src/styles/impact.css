@@ -1,0 +1,7 @@
+.dash{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin:48px 0 10px}
+.dash div{padding:26px;border-radius:18px;background:var(--sf);border:1px solid #ffffff12}
+.dash b{display:block;font-size:2.6rem;color:var(--lm);outline:none;line-height:1.1}
+.dash small{color:var(--gr)}
+.dash em{display:block;font-size:.75rem;color:#e8c14a;margin-top:10px;font-style:normal}
+.out{margin:30px 0 0;padding:0;list-style:none;display:grid;gap:10px;color:#d6dcd7}
+.out li:before{content:"✓ ";color:var(--lm)}

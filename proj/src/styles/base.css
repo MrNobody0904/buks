@@ -1,0 +1,28 @@
+:root{--bk:#080B09;--fg:#10251B;--lm:#C6F432;--wh:#fff;--gr:#929B94;--sf:#141A16;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*:before,*:after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bk);color:var(--wh);font:400 17px/1.6 'Space Grotesk',Inter,system-ui,sans-serif;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--lm);outline-offset:3px}
+h1,h2,h3{font-weight:700;line-height:1;letter-spacing:-.03em;margin:0}
+h1{font-size:clamp(2.6rem,7vw,6.2rem)}
+h2{font-size:clamp(2rem,5vw,4.2rem);max-width:15ch}
+.lm{color:var(--lm)}
+.mut{color:var(--gr)}
+.w{max-width:1240px;margin:0 auto;padding:0 24px}
+section{padding:120px 0;position:relative}
+.btn{display:inline-block;padding:14px 26px;border-radius:99px;font-weight:700;border:1px solid #fff3;transition:transform .25s,background .25s,color .25s;cursor:pointer;font-family:inherit;font-size:1rem;color:#fff;background:none}
+.btn:hover{transform:translateY(-3px)}
+.btn.p{background:var(--lm);color:var(--bk);border-color:var(--lm)}
+.btn.p:hover{box-shadow:0 8px 30px #c6f43255}
+.btn.g:hover{border-color:var(--lm);color:var(--lm)}
+canvas{display:block;width:100%}
+#ld{position:fixed;inset:0;z-index:100;background:var(--bk);display:grid;place-content:center;gap:18px;justify-items:center}
+#ld b{font-size:2rem;letter-spacing:.06em}
+#ld i{display:block;width:180px;height:2px;background:#fff2}
+#ld s{display:block;height:100%;width:0;background:var(--lm)}
+#wp{position:fixed;inset:0;background:var(--lm);z-index:90;transform:translateY(100%);pointer-events:none}
+#cur{position:fixed;left:0;top:0;width:36px;height:36px;margin:-18px 0 0 -18px;border:1px solid var(--lm);border-radius:50%;pointer-events:none;z-index:99;display:none}
+#cur.on{display:block}
+body.fine,body.fine a,body.fine button{cursor:none}
+.fig{width:100%;border-radius:20px;margin-top:40px;display:block}

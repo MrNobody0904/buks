@@ -1,0 +1,8 @@
+form{display:grid;gap:16px}
+label{font-size:.85rem;color:var(--gr);display:grid;gap:6px}
+input,select,textarea{font:inherit;color:#fff;background:var(--sf);border:1px solid #ffffff22;border-radius:12px;padding:14px 16px;width:100%}
+input:focus,select:focus,textarea:focus{border-color:var(--lm);outline:none}
+.er{color:#ff7a6b;font-size:.8rem;min-height:1em}
+#ok{display:none;padding:16px;border-radius:12px;background:var(--fg);border:1px solid var(--lm)}
+.cats{display:flex;flex-wrap:wrap;gap:8px;margin:24px 0}
+.cats span{padding:6px 14px;border:1px solid #ffffff22;border-radius:99px;font-size:.85rem;color:var(--gr)}

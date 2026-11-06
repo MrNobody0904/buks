@@ -1,0 +1,9 @@
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;margin-top:56px}
+.st{padding:34px;border-radius:22px;background:var(--sf);border:1px solid #ffffff12;transition:border-color .3s,transform .3s}
+.st:hover{border-color:var(--lm);transform:translateY(-6px)}
+.st svg{width:56px;height:56px;stroke:var(--lm);fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;margin-bottom:26px}
+.st .d{stroke-dasharray:140;stroke-dashoffset:140;animation:dr 2.4s ease-out forwards}
+.st:hover .d{animation:dr 1.4s ease-out forwards}
+@keyframes dr{to{stroke-dashoffset:0}}
+.st h3{font-size:1.4rem;margin:6px 0 10px}
+.st p{margin:0;color:var(--gr)}
